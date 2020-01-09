@@ -1,9 +1,9 @@
 {
-  "name": "safe-read",
+  "name": "safely-read",
   "version": "1.0.0",
   "description": "A Javascript utility for access nested objects safely",
   "main": "index.js",
-  "repository": "https://github.com/fabmont/safeRead.git",
+  "repository": "https://github.com/fabmont/safelyRead.git",
   "author": "Fabricio Monteiro <fabricio.monteiro@coopersystem.com.br>",
   "license": "MIT",
   "private": false,

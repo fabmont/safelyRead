@@ -1,6 +1,6 @@
-const safeRead = require('../index');
+const safelyRead = require('../index');
 
-describe('safeRead core', () => {
+describe('safelyRead core', () => {
   const fakeObj = {
     batman: {
       aka: 'Bruce Wayne',
@@ -13,23 +13,23 @@ describe('safeRead core', () => {
   };
 
   it('should navigate into the path given', () => {
-    const resultAka = safeRead(fakeObj, ['batman', 'aka'], 'Not found');
+    const resultAka = safelyRead(fakeObj, ['batman', 'aka'], 'Not found');
     expect(resultAka).toEqual(fakeObj.batman.aka);
 
-    const resultRelated = safeRead(fakeObj, ['batman', 'related', 'heroes'], []);
+    const resultRelated = safelyRead(fakeObj, ['batman', 'related', 'heroes'], []);
     expect(resultRelated).toEqual(fakeObj.batman.related.heroes);
   });
 
   it('should return the fallback when path doesn`t exist', () => {
-    const resultAka = safeRead(fakeObj, ['batman', 'idetity'], 'Not found');
+    const resultAka = safelyRead(fakeObj, ['batman', 'idetity'], 'Not found');
     expect(resultAka).toEqual('Not found');
 
-    const resultRelated = safeRead(fakeObj, ['batman', 'related', 'dcHeroes'], []);
+    const resultRelated = safelyRead(fakeObj, ['batman', 'related', 'dcHeroes'], []);
     expect(resultRelated).toEqual([]);
   });
 
   it('should apply the transform function in the result', () => {
-    const resultAka = safeRead(
+    const resultAka = safelyRead(
       fakeObj,
       ['batman', 'aka'],
       'Not found',
@@ -40,11 +40,11 @@ describe('safeRead core', () => {
 
   it('should crash if called with a non-function transform ', () => {
     expect(
-      safeRead(fakeObj, ['batman', 'aka'], null, 'hello'),
+      safelyRead(fakeObj, ['batman', 'aka'], null, 'hello'),
     ).toBe('Bruce Wayne');
 
     expect(
-      safeRead(fakeObj, ['batman', 'dcHeroes'], null, 'hello'),
+      safelyRead(fakeObj, ['batman', 'dcHeroes'], null, 'hello'),
     ).toBeNull();
   });
 });
