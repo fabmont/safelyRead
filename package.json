@@ -1,6 +1,6 @@
 {
   "name": "safely-read",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Javascript utility for access nested objects safely",
   "main": "index.js",
   "repository": "https://github.com/fabmont/safelyRead.git",
