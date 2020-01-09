@@ -1,0 +1,19 @@
+{
+  "name": "safe-read",
+  "version": "1.0.0",
+  "description": "A Javascript utility for access nested objects safely",
+  "main": "index.js",
+  "repository": "https://github.com/fabmont/safeRead.git",
+  "author": "Fabricio Monteiro <fabricio.monteiro@coopersystem.com.br>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
