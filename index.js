@@ -9,7 +9,6 @@ const loGet = require('lodash.get');
  */
 function safelyRead(target, path, fallback = null, transform) {
   const onDevelopment = process.env.NODE_ENV === 'development';
-  console.log(onDevelopment);
   const result = loGet(target, path, fallback);
 
   if (result && result !== fallback) {
