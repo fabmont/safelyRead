@@ -9,12 +9,16 @@ SafeRead enhance the Lodash's **get** util by provinding a transform parameter t
 ## Instalation
 
 1. Install the last version of safe-read:
-`npm install cpf-check --save`
+
+   `npm install safe-read` or `yarn add safe-read`
 
 2. Import it into your project:
-`const safeRead = require('cpf-check');`
-`// or if you're using ES6+`
-`import CPF from 'cpf-check';`
+
+   `const safeRead = require('safe-read');`
+   
+   `// or using ES6+`
+   
+   `import safeRead from 'safe-read';`
 
 ## Usage
 SafeRead provides a function that accepts four parameters.
