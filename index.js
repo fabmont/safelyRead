@@ -5,11 +5,11 @@ const loGet = require('lodash.get');
  * @param  {Object} target Target object
  * @param  {Array<String>} path Path to try to access
  * @param  {Any} fallback Fallback if access fails
- * @return {Function} Value or fallback
+ * @param {Function} transform Value or fallback
+ * @return {Any} Value or fallback
  */
 function safelyRead(target, path, fallback = null, transform) {
   const onDevelopment = process.env.NODE_ENV === 'development';
-  console.log(onDevelopment);
   const result = loGet(target, path, fallback);
 
   if (result && result !== fallback) {
@@ -24,8 +24,7 @@ function safelyRead(target, path, fallback = null, transform) {
           );
         }
       }
-    } else 
-
+    }
     return result;
   }
 

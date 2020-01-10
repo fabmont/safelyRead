@@ -1,24 +1,37 @@
+<div align="center">
 
-# safely-read
+# safely-read	
+
+![Travis (.org)](https://img.shields.io/travis/fabmont/safelyRead?style=flat-square)
+![Coveralls github](https://img.shields.io/coveralls/github/fabmont/safelyRead?style=flat-square)
+
+![npm](https://img.shields.io/npm/dm/safely-read?style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/min/safely-read?style=flat-square)
+
 A Javascript utility for access nested objects safely.
 
+</div>
+
+
+
+
 ## Motivation
-Let's imagine you're consuming data from an API and some data inside the object given from this API doesn't exist. Your front-end should crash because of that, so using safe-read will garantee that if the property exist, you'll get it, or transform it, otherwise, will give to you a fallback result.
+Let's imagine you're consuming data from an API and some data inside the object given from this API doesn't exist. Your front-end should crash because of that, so using safelyRead will garantee that if the property exist, you'll get it, or transform it, otherwise, will give to you a fallback result.
 SafelyRead enhance the Lodash's **get** util by provinding a transform parameter that you can modify the result of the object property.
 
 ## Instalation
 
 1. Install the last version of safe-read:
 
-   `npm install safe-read` or `yarn add safe-read`
+   `npm install safely-read` or `yarn add safely-read`
 
 2. Import it into your project:
 
-   `const safelyRead = require('safe-read');`
+   `const safelyRead = require('safely-read');`
    
    `// or using ES6+`
    
-   `import safelyRead from 'safe-read';`
+   `import safelyRead from 'safely-read';`
 
 ## Usage
 SafelyRead provides a function that accepts four parameters.

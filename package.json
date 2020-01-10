@@ -1,19 +1,29 @@
 {
   "name": "safely-read",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A Javascript utility for access nested objects safely",
   "main": "index.js",
   "repository": "https://github.com/fabmont/safelyRead.git",
-  "author": "Fabricio Monteiro <fabricio.monteiro@coopersystem.com.br>",
+  "author": "Fabricio Monteiro <fabriciosantos47@gmail.com>",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "frontend-end",
+    "back-end",
+    "object",
+    "util",
+    "utility"
+  ],
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
   },
   "dependencies": {
     "lodash.get": "^4.4.2"
   },
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "jest": "^24.9.0"
   }
 }
