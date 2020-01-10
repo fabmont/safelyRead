@@ -5,6 +5,9 @@
 ![Travis (.org)](https://img.shields.io/travis/fabmont/safelyRead?style=flat-square)
 ![Coveralls github](https://img.shields.io/coveralls/github/fabmont/safelyRead?style=flat-square)
 
+![npm](https://img.shields.io/npm/dm/safely-read?style=flat-square)
+![npm bundle size](https://img.shields.io/bundlephobia/min/safely-read?style=flat-square)
+
 A Javascript utility for access nested objects safely.
 
 </div>
