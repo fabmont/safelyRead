@@ -4,7 +4,7 @@
   "description": "A Javascript utility for access nested objects safely",
   "main": "index.js",
   "repository": "https://github.com/fabmont/safelyRead.git",
-  "author": "Fabricio Monteiro <fabricio.monteiro@coopersystem.com.br>",
+  "author": "Fabricio Monteiro <fabriciosantos47@gmail.com>",
   "license": "MIT",
   "private": false,
   "keywords": [
