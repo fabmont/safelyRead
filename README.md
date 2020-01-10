@@ -1,8 +1,17 @@
 
 # safely-read
+
+<div align="center">
+	
+[![Build Status](https://travis-ci.com/fabmont/safelyRead.svg?branch=master)](https://travis-ci.com/fabmont/safelyRead)
 [![Coverage Status](https://coveralls.io/repos/github/fabmont/safelyRead/badge.svg?branch=master)](https://coveralls.io/github/fabmont/safelyRead?branch=master)
 
 A Javascript utility for access nested objects safely.
+
+</div>
+
+
+
 
 ## Motivation
 Let's imagine you're consuming data from an API and some data inside the object given from this API doesn't exist. Your front-end should crash because of that, so using safelyRead will garantee that if the property exist, you'll get it, or transform it, otherwise, will give to you a fallback result.
