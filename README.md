@@ -1,8 +1,7 @@
-
-# safely-read
-
 <div align="center">
-	
+
+# safely-read	
+
 [![Build Status](https://travis-ci.com/fabmont/safelyRead.svg?branch=master)](https://travis-ci.com/fabmont/safelyRead)
 [![Coverage Status](https://coveralls.io/repos/github/fabmont/safelyRead/badge.svg?branch=master)](https://coveralls.io/github/fabmont/safelyRead?branch=master)
 
