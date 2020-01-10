@@ -16,6 +16,7 @@
     "lodash.get": "^4.4.2"
   },
   "devDependencies": {
+    "coveralls": "^3.0.9",
     "jest": "^24.9.0"
   }
 }
