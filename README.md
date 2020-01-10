@@ -1,5 +1,7 @@
 
 # safely-read
+[![Coverage Status](https://coveralls.io/repos/github/fabmont/safelyRead/badge.svg?branch=master)](https://coveralls.io/github/fabmont/safelyRead?branch=master)
+
 A Javascript utility for access nested objects safely.
 
 ## Motivation
