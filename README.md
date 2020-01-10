@@ -2,8 +2,8 @@
 
 # safely-read	
 
-[![Build Status](https://travis-ci.com/fabmont/safelyRead.svg?branch=master)](https://travis-ci.com/fabmont/safelyRead)
-[![Coverage Status](https://coveralls.io/repos/github/fabmont/safelyRead/badge.svg?branch=master)](https://coveralls.io/github/fabmont/safelyRead?branch=master)
+![Travis (.org)](https://img.shields.io/travis/fabmont/safelyRead?style=flat-square)
+![Coveralls github](https://img.shields.io/coveralls/github/fabmont/safelyRead?style=flat-square)
 
 A Javascript utility for access nested objects safely.
 
