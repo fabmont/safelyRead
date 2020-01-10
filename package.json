@@ -7,6 +7,13 @@
   "author": "Fabricio Monteiro <fabricio.monteiro@coopersystem.com.br>",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "frontend-end",
+    "back-end",
+    "object",
+    "util",
+    "utility"
+  ],
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --coverage",
